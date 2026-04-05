@@ -46,3 +46,38 @@ Scala           -> 0.421
 MATLAB          -> 0.419
 Rust            -> 0.418
 Java            -> 0.418
+
+
+# Programming Language Neural Model (Extended)
+
+## Overview
+This project builds a **multi-parameter neural network model** to rank the top 20 programming languages using a synthetic TIOBE-like scoring system.
+
+## Features (Input Parameters)
+Each programming language is represented by:
+
+- Popularity
+- Performance
+- Safety
+- Concurrency
+- Simplicity
+- Science & Technology Impact (NEW)
+
+## Key Idea
+The addition of **science & technology** captures:
+- Use in research (AI, physics, math)
+- Academic adoption
+- Scientific computing ecosystems
+
+## Model Architecture
+- Input layer: 6 features
+- Hidden layer: 10 neurons (ReLU)
+- Output: 1 score (ranking)
+
+## Training
+- Loss: Mean Squared Error
+- Optimizer: Gradient Descent
+- Epochs: 200
+
+## Sample Output
+
